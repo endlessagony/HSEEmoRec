@@ -20,16 +20,19 @@ Users info (for analysis) will be saved in usersdata/usersdata.csv with fields
 
 To install the necessary dependencies, run the following command:
 1. Clone the repository: 
+```
 git clone https://github.com/endlessagony/HSEEmoRec.git
+```
 2. Install the requirements
+```
 pip install -r requirements.txt
-
+```
 ## Usage
 
 To run the app, run the following command:
-
+```
 python main.py
-
+```
 This will start the Flask development server, and the app will be accessible in your web browser at http://localhost:5000.
 
 ## Screenshots
