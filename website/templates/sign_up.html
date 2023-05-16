@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Sign-Up{% endblock %}
+
+{% block content%}
+<form method="POST">
+    <h3 align="center">Sign Up</h3>
+    <div class="form-group">
+        <label for="email">Email Adress</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter first name">
+    </div>
+    <div class="form-group">
+        <label for="secondName">Second Name</label>
+        <input type="text" class="form-control" id="secondName" name="secondName" placeholder="Enter second name">
+    </div>
+    <div class="form-group">
+        <label for="password1">Password</label>
+        <input type="password" class="form-control" id="password1" name="password1" placeholder="Enter password">
+    </div>
+    <div class="form-group">
+        <label for="password2">Password (Confrim)</label>
+        <input type="password" class="form-control" id="password2" name="password2" placeholder="Confirm password">
+    </div>
+    <div class="form-group">
+        <label for="sex">Sex</label>
+        <div class="input-group mb-3">
+            <select class="custom-select" id="inputGroupSelect02" name="sex">
+              <option selected name="sex" id="sex">Enter sex</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+    </div>
+    <div class="form-group">
+        <label for="position">Position</label>
+        <input type="text" class="form-control" id="position" name="position" placeholder="Enter position">
+    </div>
+    <div class="form-group">
+        <label for="age">Age</label>
+        <input type="text" class="form-control" id="age" name="age" placeholder="Enter age">
+    </div>
+
+    <br />
+
+    <button type="submit" class="sbmt-button">Submit</button>
+
+    <style>
+        .sbmt-button {
+            width: 100px;
+            height: 50px;
+    }
+    </style>
+</form>
+{% endblock %}

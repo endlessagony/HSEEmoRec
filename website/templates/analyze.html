@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Analyze{% endblock %}
+
+{% block content%}
+<form method="POST">
+    <h3 align="center">Analyze</h3>
+    <div class="form-group">
+        <label for="analyze_input">Feature</label>
+        <div class="input-group mb-3">
+            <select class="custom-select" id="inputGroupSelect02" name="analyze_input">
+              <option selected name="analyze_input" id="analyze_input">Enter feature</option>
+              <option value="age">Age</option>
+              <option value="is_weekend">Type of day (weekday, weekend)</option>
+              <option value="position">Position</option>
+              <option value="sex">Sex</option>
+              <option value="weekday">Weekday</option>
+            </select>
+          </div>
+    </div>
+
+    <br />
+
+    <button type="submit" class="analyze-button">Analyze</button>
+
+    <style>
+        .analyze-button {
+            width: 100px;
+            height: 50px;
+    }
+    </style>
+</form>
+{% endblock %}

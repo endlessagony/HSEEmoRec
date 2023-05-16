@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content%}
+<div class="description">
+    <h2>EmoRecHSE - is the new application for Higher School of Economics,</h2>
+    <h2>which is created for analysis of staff's satisfaction</h2>
+</div>
+
+<div class="contact">
+    <h2>For any question:</h2>
+    <h2>email: naermishov@edu.hse.ru</h2>
+    <h2>github: https://github.com/endlessagony</h2>
+</div>
+
+<style>
+    .description {
+        -webkit-text-stroke: .15vh #fff;
+        position: absolute;
+        font-size: 3.5em;
+        color: transparent;
+        text-decoration: none;
+        font-weight: 700;
+        margin-left: 0px;
+        transform: scale(1);
+        transition: transform 2s ease;
+        overflow: hidden;
+        white-space: nowrap;
+        top: 350px;
+    }
+
+    .contact {
+        -webkit-text-stroke: .15vh #fff;
+        position: absolute;
+        font-size: 2em;
+        color: transparent;
+        text-decoration: none;
+        font-weight: 700;
+        transform: scale(1);
+        transition: transform 2s ease;
+        overflow: hidden;
+        white-space: nowrap;
+        top: 450px;
+    }
+    
+    button {
+        width: 100px;
+        height: 50px;
+    }
+</style>
+{% endblock %}
