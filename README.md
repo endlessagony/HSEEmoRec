@@ -35,15 +35,15 @@ This will start the Flask development server, and the app will be accessible in 
 ## Screenshots
 
 ### Home page
-![home](https://github.com/endlessagony/HSEEmoRec/assets/74978814/853bf58e-f951-4d43-9bd9-ccb6282156f3)
+![home](https://github.com/endlessagony/HSEEmoRec/assets/74978814/0484ff2e-b558-47c5-a92f-368ee2534bbe)
 
 ### Login page
-![login](https://github.com/endlessagony/HSEEmoRec/assets/74978814/54bd11ea-22fc-4ced-8bf2-a940621ef589)
+![login](https://github.com/endlessagony/HSEEmoRec/assets/74978814/23a3cc88-ec6d-4200-8c40-f35c86f89e44)
 
 ### Sign-up page
-![sign-up](https://github.com/endlessagony/HSEEmoRec/assets/74978814/6a79cdcb-2695-480b-9519-faeb5f23e58f)
+![sign-up](https://github.com/endlessagony/HSEEmoRec/assets/74978814/6dd94c6d-c8e0-4f72-8aa6-a1a497c85bf1)
 
 ### Analysis page
-![analyze](https://github.com/endlessagony/HSEEmoRec/assets/74978814/e101750c-7864-4f5f-9519-bb7ab70f58ea)
+![analyze](https://github.com/endlessagony/HSEEmoRec/assets/74978814/2b243218-6e7f-4005-92f8-2ac8583c1d8e)
 
 #### P.S. Feature field takes values: sex, age, weekday, position, is_weekend.
