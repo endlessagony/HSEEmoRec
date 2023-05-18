@@ -10,6 +10,7 @@ DB_NAME = "database.db"
 USERSDATA_DIR = "usersdata/"
 USERSDATA_PATH = USERSDATA_DIR + 'usersdata.csv'
 ANALYSIS_DIR = 'analysis/'
+SNAPS_DIR = 'HSEER/snaps/'
 
 def create_app():
     app = Flask(__name__)
@@ -39,15 +40,19 @@ def create_app():
     create_database(app)
     create_usersdata()
     create_analysis_dir()
+    create_snaps_dir()
 
     return app
-
 
 def create_database(app):
     if not os.path.exists('website/' + DB_NAME):
         with app.app_context():
             db.create_all()
         print('Database was created')
+        
+def create_snaps_dir():
+    if not os.path.exists(SNAPS_DIR):
+        os.mkdir(SNAPS_DIR)
 
 def create_usersdata():
     if not os.path.exists(USERSDATA_DIR):
