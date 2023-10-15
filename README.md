@@ -3,7 +3,6 @@
 <p align="center"> <img src="https://flask.palletsprojects.com/en/2.1.x/_static/flask-icon.png" alt="Flask" width="80" height="80"/> 
   <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" width="80" height="80"/> 
   <img src="https://pytorch.org/assets/images/pytorch-logo.png" alt="PyTorch" width="80" height="80"/> 
-  <img src="https://matplotlib.org/stable/_static/logo2_compressed.svg" alt="matplotlib" width="80" height="80"/> 
 </p>
 
 This web application is built with the Flask framework and allows users to analyze staff satisfaction using an EfficientNet-B0 backbone and an 
